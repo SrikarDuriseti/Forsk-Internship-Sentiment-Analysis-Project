@@ -240,7 +240,7 @@ def main():
     # favicon  == 16x16 icon ----> favicon.ico  ----> assests
     app.title = project_name
     app.layout = create_app_ui()
-    app.run_server()
+    app.run_server(host='0.0.0.0', port=8050)
     
     
     
