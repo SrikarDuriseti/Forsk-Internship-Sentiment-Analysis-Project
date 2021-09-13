@@ -120,7 +120,7 @@ def main():
     app.layout = create_app_ui()    
     app.title = project_name
     
-    app.run_server()
+    app.run_server(host='0.0.0.0', port=8050)
     #and finally closing
     app = None
     project_name = None
