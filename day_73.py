@@ -77,7 +77,7 @@ def load_model():
 def check_review(reviewText):
 
     #reviewText has to be vectorised, that vectorizer is not saved yet
-    #load the vectorize and call transform and then pass that to model preidctor
+    #load the vectorize and call transform and then pass that to model predictor
     #load it later
 
     transformer = TfidfTransformer()
@@ -174,7 +174,7 @@ def update_app_ui(textarea_value):
 '''
 
 
-@app.callback(
+@app.callback(                                    #call back mechanism
     Output( 'result'   , 'children'     ),
     [
     Input( 'button_review'    ,  'n_clicks')
