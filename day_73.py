@@ -4,9 +4,9 @@ import pandas as pd
 import webbrowser
 # !pip install dash
 import dash
-import dash_html_components as html
-import dash_core_components as dcc
-import dash_bootstrap_components as dbc
+from dash import html
+from dash import dcc
+from dash import dbc
 from matplotlib import pyplot as plt
 
 from dash.dependencies import Input, Output , State
