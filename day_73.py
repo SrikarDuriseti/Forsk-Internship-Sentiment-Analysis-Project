@@ -6,7 +6,7 @@ import webbrowser
 import dash
 from dash import html
 from dash import dcc
-from dash import dbc
+import dash_bootstrap_components as dbc
 from matplotlib import pyplot as plt
 
 from dash.dependencies import Input, Output , State
