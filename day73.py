@@ -5,7 +5,7 @@ import webbrowser
 import dash
 from dash import dcc
 from dash import html
-from dash import dbc
+import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output, State
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import CountVectorizer
