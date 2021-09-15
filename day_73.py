@@ -91,7 +91,7 @@ def check_review(reviewText):
     return pickle_model.predict(vectorised_review)
 
 def open_browser():
-    webbrowser.open_new('http://127.0.0.1:8050/')
+    #webbrowser.open_new('http://127.0.0.1:8050/')
     
 def create_app_ui():
     main_layout = html.Div(
